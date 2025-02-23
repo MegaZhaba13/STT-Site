@@ -1,0 +1,12 @@
+/* Общие стили для изображений */
+.mishaMOVE, .maratMove, .arsMove, .kirMove, .yahaHODIT {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Анимация для всех движений */
+}
+
+/* Блокировка взаимодействия */
+.mishaMOVE.disabled, .maratMove.disabled, .arsMove.disabled, .kirMove.disabled, .yahaHODIT.disabled {
+    pointer-events: none; /* Отключение кликов */
+    transform: scale(1.2); /* Визуальная обратная связь через увеличение */
+}
