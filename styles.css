@@ -1,6 +1,6 @@
 /* Общие стили для изображений */
 .mishaMOVE, .maratMove, .arsMove, .kirMove, .yahaHODIT {
-    position: relative;
+    position: absolute;
     cursor: pointer;
     transition: transform 0.3s ease; /* Анимация для всех движений */
 }
